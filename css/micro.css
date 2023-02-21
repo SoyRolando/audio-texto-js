@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: rgba(0, 0, 0, 0.79);
+}
+
+header {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    box-shadow: 0px 1px 6px 0px;
+}
+
+.logo-header {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.navegation-header {
+    font-size: 25px;
+    color: rgb(15, 7, 7);
+    color: white;
+    font-size: 2rem;
+}
+
+main p {
+
+    padding: 0 20px 0 20px;
+    text-align: center;
+    /* color: white; */
+
+}
+
+main {
+    /* background-color: #906caf; */
+    width: 100 vw;
+    padding: 40px;
+}
+
+.cuerpo {
+    width: 100 vw;
+    height: 150px;
+    /* background-color: #1047a0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuerpo .microfono {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 1px 6px 0px;
+}
+
+#salida p {
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+}
+#salida{
+    font-size: 1.8rem;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+}
+
+.microfono{
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+}
